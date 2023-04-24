@@ -8,7 +8,6 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 import css from "./tech/css.png";
-import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
@@ -19,7 +18,12 @@ import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+import threejs from "./tech/threejs.png";
+import nextjs from "./tech/nextjs.png";
+import angular from "./tech/angular.png";
+import flutter from "./tech/flutter.png";
+import native from "./tech/native.png";
+import laravel from "./tech/laravel.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -28,9 +32,21 @@ import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
+import ecommerce from "./ecommerce.png";
 import tripguide from "./tripguide.png";
+import timdesks from "./timdesks.png";
+import gpt from "./gpt.png";
+import restaur from "./restaur.png";
+import nativee from "./nativee.jpg";
+import bank from "./bank.png";
 
 export {
+  ecommerce,
+  timdesks,
+  gpt,
+  bank,
+  nativee,
+  restaur,
   logo,
   backend,
   creator,
@@ -40,7 +56,6 @@ export {
   menu,
   close,
   css,
-  docker,
   figma,
   git,
   html,
@@ -59,4 +74,9 @@ export {
   carrent,
   jobit,
   tripguide,
+  flutter,
+  laravel,
+  nextjs,
+  angular,
+  native,
 };
