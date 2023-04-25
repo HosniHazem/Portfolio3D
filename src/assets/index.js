@@ -23,7 +23,7 @@ import nextjs from "./tech/nextjs.png";
 import angular from "./tech/angular.png";
 import flutter from "./tech/flutter.png";
 import native from "./tech/native.png";
-import laravel from "./tech/laravel.png";
+import laravel from "./tech/Laravel.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
