@@ -209,8 +209,8 @@ const testimonials = [
   },
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Theodore Roosevelt",
+      "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+    name: "Nelson Mandela",
   },
   {
     testimonial:
