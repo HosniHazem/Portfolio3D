@@ -11,7 +11,7 @@ import css from "./tech/css.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
-import javascript from "./tech/Javascript.png";
+import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
@@ -23,7 +23,7 @@ import nextjs from "./tech/nextjs.png";
 import angular from "./tech/angular.png";
 import flutter from "./tech/flutter.png";
 import native from "./tech/native.svg";
-import laravel from "./tech/Laravel.png";
+import laravel from "./tech/laravel.png";
 import springboot from "./tech/springboot.png";
 import symfony from "./tech/symfony.png";
 
