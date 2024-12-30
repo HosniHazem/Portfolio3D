@@ -9,7 +9,8 @@ const Computers = ({ isMobile }) => {
 
   // Check for NaN values in the "position" attribute
   if (computer.nodes && computer.nodes.desktop_pc) {
-    const positions = computer.nodes.desktop_pc.geometry.attributes.position.array;
+    const positions =
+      computer.nodes.desktop_pc.geometry.attributes.position.array;
     for (let i = 0; i < positions.length; i++) {
       if (isNaN(positions[i])) {
         positions.splice(i, 3);
@@ -20,7 +21,7 @@ const Computers = ({ isMobile }) => {
 
   return (
     <mesh>
-      <hemisphereLight intensity={0.15} groundColor='black' />
+      <hemisphereLight intensity={0.15} groundColor="black" />
       <spotLight
         position={[-20, 50, 10]}
         angle={0.12}
@@ -31,11 +32,11 @@ const Computers = ({ isMobile }) => {
       />
       <pointLight intensity={1} />
       <primitive
-  object={computer.scene}
-  scale={isMobile ? 0.4 : 0.6}
-  position={isMobile ? [0, -3.5, -0.6] : [0, -3.3, -2]}
-  rotation={[-0.01, -0.2, -0.1]}
-/>
+        object={computer.scene}
+        scale={isMobile ? 0.4 : 0.6}
+        position={isMobile ? [0, -3.5, -0.6] : [0, -3.3, -2]}
+        rotation={[-0.01, -0.2, -0.1]}
+      />
     </mesh>
   );
 };
@@ -66,7 +67,7 @@ const ComputersCanvas = () => {
 
   return (
     <Canvas
-      frameloop='demand'
+      frameloop="demand"
       shadows
       dpr={[1, 2]}
       camera={{ position: [20, 3, 5], fov: 25 }}

@@ -5,8 +5,8 @@ import {
   web,
   javascript,
   typescript,
-  html,
-  css,
+  symfony,
+  springboot,
   reactjs,
   redux,
   tailwind,
@@ -14,13 +14,6 @@ import {
   mongodb,
   git,
   figma,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
   flutter,
   laravel,
@@ -34,10 +27,13 @@ import {
   nativee,
   restaur,
 } from "../assets";
+
 import timdesk from "../assets/company/timdesk.png";
 import wellness from "../assets/company/wellness.png";
 import aiesec from "../assets/company/aiesec.png";
 import asyncgroup from "../assets/company/asyncgroup.jfif";
+import smartskills from "../assets/company/smartskills.png";
+import kiffcom from "../assets/company/kiffcom.webp";
 export const navLinks = [
   {
     id: "about",
@@ -74,101 +70,94 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
     name: "TypeScript",
     icon: typescript,
   },
   {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "Javascript",
+    icon: javascript,
   },
   {
     name: "Node JS",
     icon: nodejs,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "laravel",
-    icon: laravel,
+    name: "React JS",
+    icon: reactjs,
   },
   {
     name: "nextjs",
     icon: nextjs,
   },
   {
+    name: "react native",
+    icon: native,
+  },
+  {
+    name: "Three JS",
+    icon: threejs,
+  },
+
+  {
     name: "angular",
     icon: angular,
   },
   {
-    name: "native",
-    icon: native,
+    name: "Tailwind CSS",
+    icon: tailwind,
+  },
+
+  {
+    name: "git",
+    icon: git,
+  },
+  {
+    name: "symfony",
+    icon: symfony,
+  },
+  {
+    name: "laravel",
+    icon: laravel,
+  },
+  {
+    name: "springboot",
+    icon: springboot,
   },
   {
     name: "flutter",
     icon: flutter,
-  }
+  },
 ];
 
 const experiences = [
   {
-    title: "Fullstack Developer",
+    title: "Fullstack Developer Internship",
     company_name: "Timsoft",
     icon: timdesk,
     iconBg: "#383E56",
     date: "Feb 2022 - Jul 2022",
     points: [
-      "- Realization of a 'Ticketing Portal for the follow-up of the Classic & TMA support activity'",
-      "- Functional study and needs analysis",
-      "- Design and layout of the Ticketing portal",
-      "- Portal Development,",
-      "-Testing and implementation in a pre-production environment at the client's site",
-     " Technologies: MYSQL, Laravel , React , Figma.",
-      
+      " Realization of a 'Ticketing Portal for the follow-up of the Classic & TMA support activity'",
+      " Functional study and needs analysis",
+      " Design and layout of the Ticketing portal",
+      " Portal Development,",
+      " Testing and implementation in a pre-production environment at the client's site",
+      " Technologies: MYSQL, Laravel , React , Figma.",
     ],
   },
   {
-    title: "Content Creation",
-    company_name: "Welness",
-    icon: wellness,
+    title: "Full-stack Developer (Freelance Project)",
+    company_name: "Async GROUP",
+    icon: asyncgroup,
     iconBg: "#E6DEDD",
-    date: "Nov 2022 - Jun 2023",
+    date: "Mar 2022 - Aug 2023",
     points: [
-      "- Research and design: Understand needs, identify trends and develop logo concepts.",
-      "- Refinement and finalization: Improve the selected concepts, finalize the design and provide high-quality files.",
+      " Developed web apps with Next.js and Laravel for scalable solutions.",
+      " Collaborated with teams to deliver user-centric products.",
+      " Implemented responsive designs with cross-browser compatibility.",
+      " Improved code quality through reviews and best practices.",
+      " Managed code using version control for team collaboration.",
+      " Adapted to remote workflows with strong communication.",
     ],
   },
   {
@@ -178,30 +167,47 @@ const experiences = [
     iconBg: "#383E56",
     date: "Jan 2022 - Jan 2023",
     points: [
- "- Event and project planning.",
-"- Planning of internal communication and engagement with the team.",
-"- Execution of work (sales (application of Sales Funnel),CRM like Hubspot, market understanding and segmentation, mailing system,market segmentation, mailing system using extensions like Gmass, mailtrack...).",
-"- Knowledge transfer meetings.", 
-"- Replanning meeting based on the feedback provided.",
-  ],
+      " Event and project planning.",
+      " Planning of internal communication and engagement with the team.",
+      " Execution of work (sales (application of Sales Funnel),CRM like Hubspot, market understanding and segmentation, mailing system,market segmentation, mailing system using extensions like Gmass, mailtrack...).",
+      " Knowledge transfer meetings.",
+      " Replanning meeting based on the feedback provided.",
+    ],
+  },
+
+  {
+    title: "Full-stack Developer",
+    company_name: "Smart Skills",
+    icon: smartskills,
+    iconBg: "#E6DEDD",
+    date: "Jun 2023 - Aug 2024",
+    points: [
+      " Built next-gen web apps with React.js, Python, PHP, and Laravel.",
+      " Enhanced security using JWT-based authentication.",
+      " Designed responsive interfaces for seamless user experiences.",
+      " Managed pre-production environments with VMware Workstation.",
+      " Optimized app performance through regular maintenance.",
+      " Streamlined code management with GitHub and reviews.",
+    ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "AsyncGroup",
-    icon: asyncgroup,
+    title: "Full-stack Developer",
+    company_name: "Kiffcom Tunisie",
+    icon: kiffcom,
     iconBg: "#E6DEDD",
-    date: "Mars 2023 - Present",
+    date: "Jun 2024 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      " Created responsive apps using React and Material-UI.",
+      " Integrated Flask APIs for robust client-server communication.",
+      " Optimized state management with Redux.",
+      " Containerized apps with Docker for smoother deployments.",
+      " Automated CI/CD pipelines in GitLab.",
+      " Developed Chrome extensions to expand app functionality.",
     ],
   },
 ];
 
 const testimonials = [
-  
   {
     testimonial:
       "Success is not final, failure is not fatal: it is the courage to continue that counts.",
@@ -213,11 +219,9 @@ const testimonials = [
     name: "Nelson Mandela",
   },
   {
-    testimonial:
-      "Believe you can and you're halfway there.",
+    testimonial: "Believe you can and you're halfway there.",
     name: "Steve Jobs",
-     },
-  
+  },
 ];
 
 const projects = [
@@ -289,7 +293,6 @@ const projects = [
         name: "react native",
         color: "blue-text-gradient",
       },
-      
     ],
     image: nativee,
     source_code_link: "https://github.com/HosniHazem/Jobs_Project",
